@@ -1,0 +1,80 @@
+/*----------------- Slider CSS -----------------*/
+#slider {float:left; position:relative; width:100%; height:40px;}
+a img {border:none; text-decoration:none;}
+img {border:none; text-decoration:none;}
+label, button {cursor:pointer;}
+fieldset {border:none;}
+.left {float:left;}
+.right {float:right;}
+
+/* You might want to change these options for the main container */
+#yourSliderId {float:left; height:220px; width:528px; margin:0px; padding:0 0 0 0; border:none;}
+	
+/* images container - This is the most important container - Don't change important properties */
+#yourSliderId {list-style:none !important; margin:0 !important; overflow:hidden !important; position:relative !important;}
+
+/* each slider item - Nothing to change here */
+#yourSliderId li {display:none; float:left; margin:0; position:absolute; width:100%;}
+		
+/* Don't edit this part */
+#yourSliderId li.current {display:block; z-index:2 !important;}
+		
+/* Don't edit this part */
+#yourSliderId li.next {display:block; z-index:1 !important;}
+		
+/* Don't edit this part - prevents inline lists from being hidden */
+#yourSliderId li ul li {display:block !important; position:relative !important;}
+
+/*---------- LEFT ARROW ----------*
+
+//* Sets position and main configs */
+.slider_arrow_left {bottom:10px; cursor:pointer !important; float:left; height:22px; left:20px; position:absolute; width:22px; z-index:50 !important;}
+
+/* left arrow image */
+.slider_arrow_left {background:url(../images/left_arrow.png) no-repeat top left;}
+
+/*---------- RIGHT ARROW ----------*
+//* Sets position and main configs */
+.slider_arrow_right {bottom:10px; cursor:pointer; float:left; height:22px; left:47px; position:absolute; width:22px; z-index:50;}
+
+/* Right arrow Background */
+.slider_arrow_right {background:url(../images/right_arrow.png) no-repeat top left;}
+
+/*---------- SELECTORS ----------*
+//* Sets configs for selectors containers :absolute positioned in relation to #slider */
+.slider_selector, .slider_selector_dis {bottom:10px; list-style:none; margin:0 0 0 5px; position:absolute; right:10px; z-index:50;}
+
+/* Sets image of selectors */
+.slider_selector li, .slider_selector_dis li {display:block !important; background:url(../images/slider_selector.png) no-repeat top left; cursor:pointer; float:left; margin:0 3px !important; height:10px !important; position:relative !important; width:10px !important;}
+
+/* Sets the current selector */
+.slider_selector li.current, .slider_selector_dis li.current {background:url(../images/slider_selector_current.png) no-repeat top left;}
+
+/* Disables the selectors */
+.slider_selector_dis li {cursor:default !important; z-index:50;}
+#container {float:left; width:100%; position:relative;}
+/*----------------- Slider CSS Ends-----------------*/
+
+/*------------------HTML css---------------------*/
+#menu{width:715px; height:35px; background-image:url(../images/mbg1.gif); float:left; border-radius:5px; margin:0px 29px; padding:0px}
+#menu ul{ list-style-type:none; padding:0px; margin:2px 15px; }
+#menu ul li{ float:left; padding:0px 27px; margin:5px; background-image:url(../images/menu1.jpg); background-repeat:no-repeat; background-position:right; }
+#menu ul li a{ text-decoration:none; color:#FFF; font-size:13px; font-family:vardana; font-style:bold; margin-bottom:10px; font-weight:bold;}
+#submenu ul{ list-style-type:none; margin:0px 0px 0px 10px; padding:0px}
+#submenu ul li{ padding-left:0px ;padding-top:14px; margin-left:12px; padding-bottom:5px; border-bottom:dotted 1px #999999;}
+#submenu ul li a{ text-decoration:none; color:#FFF; font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; text-shadow:#666;}
+
+#footer_menu ul{ list-style:none; margin:0px 40px;}
+#footer_menu ul li{ float:left; padding:3px 15px 3px 2px; border-left:solid 1px #CCC;}
+#footer_menu ul li a{ text-decoration:none; color:#74726E; font-family:verdana; font-size:10px;}
+#header{width:715px; height:62px;float:left; margin:0px 29px; padding:0px;}
+#search_img{float:left; margin:0px 0px 5px 203px}
+#below_top{width:715px; height:30; margin:0px 29px; padding:0px; float:left;}
+#date{width:490px; height:30; margin-top:8px; padding:0px; float:left; font-size:11px; font-weight:lighter; color:#666666; text-align:justify}
+#findjob{width:62px; height:30; margin-top:8px; padding:0px; float:left; font-size:11px; font-weight:lighter; color:#666666"><a href="#" style="text-decoration:none; color:#666666}
+#supportinfo{width:78px; height:30; margin-top:8px; padding:0px; float:left; font-size:11px; font-weight:lighter; color:#666666"><a href="#" style="text-decoration:none; color:#666666}
+#clintlogin{width:67px; height:30; margin-top:8px; padding:0px; float:left; font-size:11px; font-weight:lighter; color:#666666"><a href="#" style="text-decoration:none; color:#666666}
+#center_img{width:528px; height:220px; float:left; margin-right:29px;}
+#notification_block{width:187px;height:515px; margin-left:29px; float:left ;}
+#left_table{margin-left:15px; border-bottom:dotted 1px #CCCCCC; width:160px; height:200px}
+#copyrit{width:715px; height:15px; color:#74726E; font-size:12px; margin-felt:200px; padding-left:250px; font-weight:lighter}
